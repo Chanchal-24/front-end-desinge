@@ -1,0 +1,20 @@
+.amenities{
+    border: 3px solid rgb(135, 135, 135);
+    box-shadow: 0 0 33px black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 500px;
+    top: 900px;
+}
+.box{
+    margin: 22px;
+    padding: 2px;
+    border: 3px solid rgb(135, 135, 135);
+    box-shadow: 0 0 33px black;
+    border-radius: 3px;
+}
+/* footer{
+    position: relative;
+    top: 1130px;
+} */

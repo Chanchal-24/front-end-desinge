@@ -1,0 +1,15 @@
+
+#mainblock_majorcity{
+    border: 3px solic purple;
+}
+#mainblock_majorcity::before{
+    background:url('../../img/img/bg.png') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 73px;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}

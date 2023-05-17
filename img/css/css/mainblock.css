@@ -1,0 +1,43 @@
+#mainblock{
+    /* border: 3px solid red; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#mainblock::before{
+    background:url('../../img/bg.png') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 55px;
+    /* left:0pc; */
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.8;
+}
+#majorcitys{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#searchbar{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+#searchbar input{
+    width: 500px;
+}
+#searchbar i{
+    background-color: white;
+}
+#searchbar i:hover{
+    cursor: pointer;
+}

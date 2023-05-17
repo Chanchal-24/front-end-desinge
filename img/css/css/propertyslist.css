@@ -1,0 +1,86 @@
+
+.property1{
+    position: absolute;
+    top: 20px;
+    left: 222px;
+    z-index: -1;
+}
+.propertys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.propertyslist{
+    border: 3px solid rgb(135, 135, 135);
+    box-shadow: 0 0 33px black;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    position: relative;
+    z-index: -1;
+}
+.propertyslist>img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    z-index: -1;
+}
+
+/* .propertyslist i{
+    width: 33px;
+    height: 33px;
+    margin: 10px 0px;
+} */
+/* .signs img{
+    width: 33px;
+    height: 33px;
+} */
+.spaces{
+    /* border: 3px solid rebeccapurple; */
+    /* z-index: -1;
+    opacity: 0.6; */
+}
+.stars{
+    display: inline;
+}
+.property_name h2{
+    display: inline;
+}
+.property_name p{
+    margin: 0px;
+}
+.property1>img{
+    margin: 9px;
+    height: 54px;
+    width: 48px;
+}
+.rent{
+    display: flex;
+}
+.rent h2{
+    display: inline;
+    margin: 0px;
+}
+.rent p{
+    margin: 3px;
+}
+.heart{
+    position: absolute;
+    top: 9px;
+    right: -237px;
+}
+.property1 button{
+    color: white;
+    background-color: skyblue;
+    position: absolute;
+    top: 435px;
+    right: 20px;
+    width: 115px;
+    height: 32px;
+    position: absolute;
+    top: 144px;
+    left: 444px;
+}
+.property1 button:hover{
+    cursor: pointer;
+}

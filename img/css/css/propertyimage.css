@@ -1,0 +1,16 @@
+.propery_image img{
+    width: 100%;
+    height: 500px;
+    /* position: absolute; */
+    top: 110px;
+    z-index: -3;
+    opacity: 0.8;
+    /* display: none; */
+}
+.propery_image ul{
+    margin: 0;
+    padding: 0;
+}
+.propery_image li{
+    list-style:  none;
+}

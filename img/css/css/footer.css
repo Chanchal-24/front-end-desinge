@@ -1,0 +1,30 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    /* position: sticy; */
+    position: relative;
+    /* top: 1130px; */
+}
+#class{
+    /* border: 3px solid rebeccapurple; */
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+#class p{
+    margin: 20px;
+}
+#class p:hover{
+    cursor: pointer;
+}
+#center{
+    /* border: 3px solid yellow; */
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
